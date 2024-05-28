@@ -21,6 +21,7 @@ class CalculateDniTest {
             "37564695, Z"
     })
     void letterShouldMatch(int dniNumber, char letter) {
+
         assertEquals(letter, CalculateDni.calculateDni(dniNumber));
     }
 
